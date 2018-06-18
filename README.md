@@ -1,11 +1,6 @@
 # PDF-Analytics
 App that read PDF file from the internet and return basic analytics about the PDF
 # Project Planning
-PDF is the most prominent format online for legal documents, science paper or engineering brochure, 
-etc.  With PDF-Analytics, a user can get a quick summery on the PDF, such as word count and the top 
-10 most used words in the paper.  This is a cupcake project that will eventually evolve into a 
-wedding cake that will draw summaries on the article similar to what autotldr bot on reddit 
-(https://www.reddit.com/user/autotldr).
 
 ## Problem Statement
 
