@@ -54,7 +54,6 @@ wedding cake that will draw summaries on the article similar to what autotldr bo
   2. A `filepaths.csv` file containing a list of files or URL expected to exist in each repository.
   
 ### Information Outputs
-
   1. A `results.txt` file containing the results of the word counts and top 10 words.
 
 ## Technology Requirements
@@ -62,10 +61,10 @@ wedding cake that will draw summaries on the article similar to what autotldr bo
 ### APIs and Web Service Requirements
 
 ### Python Package Requirements
-PyPDF2
-PDFtotext
-os
-csv
+The program will use os and csv to get user inputs
+PDF parsing will be handled by PyPDF2 and/or PDFtotext.  The resulting text will be analyzed.
+After converting to text, the list/text will be analyzed by Counter in the collections package
+
 
 ### Hardware Requirements
 local machine usage only.
