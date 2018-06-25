@@ -40,13 +40,18 @@ wedding cake that will draw summaries on the article similar to what autotldr bo
 
 
 ## Information Requirements
-  1. The list of directories in the csv file must be in PDF format, i.e. the last 4 character of each 
-  item on the list must be ".pdf"
+  1. A `Link.csv` file must be present in the project directory, data subfolder. The list of directories in the csv file 
+    must be in PDF format, i.e. the last 4 character of each item on the list must be ".pdf"
+  2. The `PDFtotext.exe` must be present at the project directory 
+      Download instruction, credit @s2t2 
+      1. Go to https://www.xpdfreader.com/download.html and click "Download the Xpdf tools"
+      2. Uncompress/extract the zip file, and move the folder to a location like the Desktop or the Programs directory.
+      3. Inside the unzipped folder, copy the file `bin64/pdftotext.exe` into your project repository
 
 ### Information Inputs
 
   1. URLs and/or file directories in csv format
-  2. A `Link.csv` file containing a list of files or URL expected to exist in each repository.
+  2. A `Link.csv` file containing a list of files or URL expected to exist in each repository
   
 ### Information Outputs
   1. A command prompt output containing the results of the word counts and top 10 words.
