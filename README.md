@@ -51,7 +51,7 @@ wedding cake that will draw summaries on the article similar to what autotldr bo
 ### Information Inputs
 
   1. URLs and/or file directories in csv format
-  2. A `Link.csv` file containing a list of files or URL expected to exist in each repository
+  2. A `Link.csv` file containing a list of URL expected to exist in each repository
   
 ### Information Outputs
   1. A command prompt output containing the results of the word counts and top 10 words.
@@ -61,8 +61,8 @@ wedding cake that will draw summaries on the article similar to what autotldr bo
 ### APIs and Web Service Requirements
 
 ### Python Package Requirements
-  1. The program will use os and csv to get user inputs
-  2. PDF parsing will be handled by PyPDF2 and/or PDFtotext.  The resulting text will be analyzed.
+  1. The program will use os and csv to get user inputs on websites
+  2. PDF parsing will be handled by PDFtotext.  The resulting parsed text will be analyzed.
   3. The walk package in os will be used to list all directories in /project_dir/data
   4. Subprocess package will be used to initiate `PDFtotext` command line utility, the subprocess package will also be used 
       to copy and delete files on the project directories.
