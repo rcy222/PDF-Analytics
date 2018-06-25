@@ -46,7 +46,7 @@ wedding cake that will draw summaries on the article similar to what autotldr bo
 ### Information Inputs
 
   1. URLs and/or file directories in csv format
-  2. A `link.csv` file containing a list of files or URL expected to exist in each repository.
+  2. A `Link.csv` file containing a list of files or URL expected to exist in each repository.
   
 ### Information Outputs
   1. A command prompt output containing the results of the word counts and top 10 words.
