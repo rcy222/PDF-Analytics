@@ -57,6 +57,7 @@ wedding cake that will draw summaries on the article similar to what autotldr bo
   1. A command prompt output containing the results of the word counts and top 10 words.
 
 ## Technology Requirements
+WINDOWS ONLY
 
 ### APIs and Web Service Requirements
 
